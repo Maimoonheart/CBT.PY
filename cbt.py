@@ -269,42 +269,41 @@
 
 
         # USING CLASS
-scores = []  
-class exam:
-  def _init_(self):
-      self.score = 0
-      print('SPARK INTERNATIONAL TEST FOR MIDDLE SCHOOLS.')
-      print('How many students wants to take this test?')
-      user_number = int(input('')) 
-      Name_of_students = []
+# scores = []  
+# class exam:
+#   def _init_(self):
+#       self.score = 0
+#       print('SPARK INTERNATIONAL TEST FOR MIDDLE SCHOOLS.')
+#       print('How many students wants to take this test?')
+#       user_number = int(input('')) 
+      # Name_of_students = []
                             
 # print(Name_of_students)
-      for x in range(user_number):
-          Names = input('Name of student: ')
-          Name_of_students.append(Names)
+      # for x in range(user_number):
+      #     Names = input('Name of student: ')
+      #     Name_of_students.append(Names)
       
-      for Name_of_student in Name_of_students:
-            print(f'{Name_of_student}, Are you ready to take this exam? \n A.YES\n B.NO')
-            user = input('')
-            if user.strip().capitalize() == 'A' or user.strip().upper() == 'YES':
-              print('Read the questions carefully and select the correct option')
-              Questions = {
-               '1.Zinc oxide is a? \n A.Basic oxide  \n B.Acidic oxide \n C.Amphoteric oxide \n D.Neutral oxide \n E.Reactive oxide': 'C',
-                ' 2.The periodic classification of elements is an arrangement of elements in order of their \n A.Atomic weights \n B.Isotopic weights \n C.Molecular weights \n D.Atomic numbers \n E.Atomic masses' : 'D'}
-              for que, val in Questions.items():
-                  print(que) 
-                  user_ans = input("Option: ")
-                  if user_ans.strip().capitalize() == val:
-                    self.score += 5
-              print('Score:', self.score)    
-            else:
-                exit()           
+#       for Name_of_student in Name_of_students:
+#             print(f'{Name_of_student}, Are you ready to take this exam? \n A.YES\n B.NO')
+#             user = input(''  )
+#             if user.strip().capitalize() == 'A' or user.strip().upper() == 'YES':
+#               print('Read the questions carefully and select the correct option')
+#               Questions = {
+#                '1.Zinc oxide is a? \n A.Basic oxide  \n B.Acidic oxide \n C.Amphoteric oxide \n D.Neutral oxide \n E.Reactive oxide': 'C',
+#                 ' 2.The periodic classification of elements is an arrangement of elements in order of their \n A.Atomic weights \n B.Isotopic weights \n C.Molecular weights \n D.Atomic numbers \n E.Atomic masses' : 'D'}
+#               for que, val in Questions.items():
+#                   print(que) 
+#                   user_ans = input("Option: ")
+#                   if user_ans.strip().capitalize() == val:
+#                     self.score += 5
+#               print('Score:', self.score)    
+#             else:
+#                 exit()           
   
-cbt=exam()
-cbt._init_()
+# cbt=exam()
+# cbt._init_()
 
 
 
-   
- 
-   
+# print(' SPARK INTERNATIONAL TEST FOR MIDDLE SCHOOLS.\n How many students wants to take this test?')
+# user_number = int(input(''))
